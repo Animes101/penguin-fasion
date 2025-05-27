@@ -9,20 +9,32 @@
 </head>
 <body>
     <!-- Heasers area -->
-     <header class="">
+     <header class="container mx-auto py-10">
         <nav class="flex justify-between">
             <div class="logo">
-                <img src="icons/logo.png" alt="logo">
+                <img class="w-[400px]" src="icons/logo.png" alt="logo">
             </div>
             <div class="nav-link">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Product</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Contact us</a></li>
+                <ul class="flex gap-10  text-[#363958] font-bold text-[18px] "> 
+                    <li><a class="hover:text-[#A4BC46] hover:underline" href="">Home</a></li>
+                    <li><a class="hover:text-[#A4BC46] hover:underline" href="">Product</a></li>
+                    <li><a class="hover:text-[#A4BC46] hover:underline" href="">About Us</a></li>
+                    <li><a class="hover:text-[#A4BC46] hover:underline" href="">Contact us</a></li>
                 </ul>
             </div>
         </nav>
+        <div class="banner grid grid-cols-2 items-center h-[90vh]">
+            <div class="banner-content space-y-10">
+                <h1 class="text-5xl font-bold text-[#FABE4C]">Be the Penguins</h1>
+                <h1 class="text-5xl font-bold text-[#2d3ac9]">of Winter</h1>
+                <p class="text-[#363958] text-base">Lorem Ipsum is simply dummy text of the printing 
+and typesetting industry.</p>
+                <button class="py-8 px-20 bg-[#A4BC46] text-white rounded cursor-pointer text-xl">BUY NOW</button>
+            </div>
+            <div class="banner-img flex justify-end items-center">
+                <img class="w-10/12" src="images/model.png" alt="modle">
+            </div>
+        </div>
      </header>
      <!-- Main area -->
 </body>
